@@ -11,7 +11,7 @@ NC='\033[0m' # No Color
 
 # Define the secret key (should be kept secret)
 SECRET_KEY="rowens"
-EXPIRY_DATE="2025-03-31"  # Set the expiration date (YYYY-MM-DD)
+EXPIRY_DATE="2099-03-31"  # Set the expiration date (YYYY-MM-DD)
 
 # Get current date
 current_date=$(date +%Y-%m-%d)
@@ -114,7 +114,7 @@ if [ "$set_password" -eq 1 ]; then
     echo
 else
     # Set a default password if user selects option 2
-    PASSWORD="Nixpoin.com123!"
+    PASSWORD="JoestarMo35623#"
     echo -e "${CYAN}Menggunakan kata sandi default: $PASSWORD${NC}"
 fi
 
